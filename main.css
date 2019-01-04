@@ -1,0 +1,188 @@
+********* Universals ***********/
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: lato;
+  background-color: lightgrey;
+}
+
+footer {
+  padding: 6vw;
+  background-color: grey;
+  text-align: center;
+}
+
+
+/*********** ID's *************/
+
+#title {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1vw;
+}
+
+#section1 {
+  background-color: white;
+  text-align: center;
+  margin-top: 1.5vw;
+}
+
+#section2 {
+  margin-top: 2vw;
+}
+
+#firstColumn {
+  background-color: white;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 2vw;
+}
+
+#portraitSection {
+  background-color: white;
+  padding-bottom: 2vw;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 2vw;
+}
+
+#portraitTitle {
+  text-align: center;
+}
+
+#paragraphs {
+  padding: 3vw;
+}
+
+#tagHeaderDecoration {
+  color: white;
+  text-align: center;
+}
+
+#achievementDecoration {
+  background-color: black;
+  color: white;
+  padding: 2vw;
+  margin-top: -1vw;
+  margin-bottom: -0.1vw;
+}
+
+#gitHubLink {
+  text-decoration: none;
+  color: rgb(100,0,100);
+}
+
+#gitHubLink:hover {
+  color: white;
+}
+
+#tagSection {
+  background-color: black;
+  box-shadow: 5px 10px 18px #888888;
+  margin: 2vw;
+}
+
+#inception{
+  background-color: white; 
+}
+
+
+/*************** Classes **************/
+
+.button-decoration {
+  background-color: black;
+  padding: 2vw;
+  text-decoration: none;
+  color: white;
+}
+
+.button-decoration:hover {
+  background-color: rgb(230,230,230);
+  color: black;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.maxWidth {
+  width: 100%;
+}
+
+.tag {
+  background-color: black;
+  color: white;
+  padding: 0.5vw;
+}
+
+.tagClass {
+  background-color: rgb(230,230,230);
+  font-size: 12px;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.padding {
+  padding: 1vw;
+}
+
+.paddingBottom {
+  padding-bottom: 2vw;
+}
+
+.spacing {
+  height: 3vw;
+}
+
+.invisibleBottom {
+  margin-bottom: -0.5vw;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.floatLeft {
+  float: left;
+}
+
+
+
+
+
+
+[class*="col-"] {
+    float: left;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+      }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
