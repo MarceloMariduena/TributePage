@@ -1,0 +1,16 @@
+{
+  "name": "TributePage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d site"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/MarceloMariduena/TributePage",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
